@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #2E2E2E, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 20px;
+}
+
+p.small {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #FF0000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#main {
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%
+    height: 100%;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h2 {
+    margin-bottom: 24px;
+    font-size: 3em;
+}
+
+.btn-outline {
+    padding: 16px 24px;
+    border: solid 2px #FF0000;
+    font-size: 20px;
+    color: #FF0000;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #FF0000;
+    color: #FFFFFF;
+    background: #FF0000;
+}
+
+.btn-social,
+.btn-social:hover,
+.btn-social:focus {
+    padding: 6px 6px;
+    margin-top: 20px;
+    display: inline-block;
+    height: 78px;
+    width: 112px;
+    border: 0px;
+    border-radius: 6px;
+}
+
+.btn-social .social-icon {
+    text-align: center;
+    font-size: 60px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
